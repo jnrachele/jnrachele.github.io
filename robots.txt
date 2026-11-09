@@ -1,0 +1,5 @@
+# Keep journal article PDFs and press clippings out of search engines.
+# The rest of the site stays searchable.
+User-agent: *
+Disallow: /files/papers/
+Disallow: /files/media/
