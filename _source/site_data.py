@@ -22,6 +22,7 @@ PROFILE = {
     "linkedin": "https://www.linkedin.com/in/jerome-rachele-14006b37/",
     "twitter": "https://twitter.com/JN_Rachele",
     "scholar": "https://scholar.google.com.au/citations?user=jFlI1NMAAAAJ&hl=en",
+    "vu_profile": "https://researchers.vu.edu.au/24109-jerome-rachele",
     "photo": "files/jerome-rachele.jpg",
     "photo_src": "https://static.wixstatic.com/media/25d07e_b7c4e6b0b8154582aedc3aec6b13e2fe~mv2.jpg",
 }
