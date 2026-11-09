@@ -282,37 +282,13 @@ def build():
   {photo}
   <div class="prose">{"".join(f"<p>{e(p)}</p>" for p in PROFILE['bio'])}
     <p class="cta"><a class="button" href="mailto:{PROFILE['email']}">Email me</a>
-      <a class="button ghost dark" href="{PROFILE['scholar']}" rel="noopener">Google Scholar</a></p>
-  </div>
-</section>
-<section class="wrap block">
-  <h2 class="section-title">Current roles</h2>
-  <ul class="rows">{roles}</ul>
-</section>
-<section class="wrap block">
-  <h2 class="section-title">Awards</h2>
-  <ul class="rows dated">{awards}</ul>
-</section>
-<section class="wrap block">
-  <h2 class="section-title">Research students</h2>
-  <h3 class="sub">Current</h3>
-  <ul class="rows dated">{sup(current)}</ul>
-  <h3 class="sub">Completed</h3>
-  <ul class="rows dated">{sup(past)}</ul>
-</section>
-<section class="wrap block two-col">
-  <div>
-    <h2 class="section-title">Service and engagement</h2>
-    <ul class="rows dated">{svc}</ul>
-  </div>
-  <div>
-    <h2 class="section-title">Education</h2>
-    <ul class="rows dated">{edu}</ul>
+      <a class="button ghost dark" href="{PROFILE['scholar']}" rel="noopener">Google Scholar</a>
+      <a class="button ghost dark" href="{PROFILE['vu_profile']}" rel="noopener">VU research profile</a></p>
   </div>
 </section>
 """
     (OUT / "about.html").write_text(page("about.html", "About", about,
-        f"About {PROFILE['name']}: roles, awards, research students and service."), encoding="utf-8")
+        f"About {PROFILE['name']}, {PROFILE['title']} at Victoria University."), encoding="utf-8")
 
     # ---- publications
     blocks = []
