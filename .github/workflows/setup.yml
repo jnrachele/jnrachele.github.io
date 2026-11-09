@@ -25,6 +25,8 @@ jobs:
             if curl -fsSL --retry 3 -A "Mozilla/5.0" -o "$path" "$url"; then echo "ok      $path"; else echo "FAILED  $url"; fi
           done
           echo "Files copied: $(find files -type f | wc -l)"
+          echo "Too large for GitHub (over 95 MB), not saved:"
+          find files -type f -size +95M -print -delete
       - name: Save to the repository
         run: |
           git config user.name "github-actions[bot]"
