@@ -128,8 +128,12 @@ GRANTS = [
 # Each report: citation, then links (PDF first if there is one; DOI or web link after)
 WIX = "https://www.jnrachele.com/_files/ugd/"
 REPORTS = [
-    ("Foster, S., Kleeman, A., Lowe, M., Gunn, L., De Gruyter, C., Chandrabose, M., Alderton, A., Villanueva, K., Edwards, N., Mandzufas, J., Rachele, J. N., Reid, R. A., Astell-Burt, T., Feng, X., Owen, N., Giles-Corti, B. (2025). Designing for density: Delivering healthy, higher-density neighbourhoods in Australia. National Heart Foundation of Australia.",
-     []),
+    ("Chandrabose, M., Gunn, L., Astell-Burt, T., Badland, H., Carver, A., Christian, H., Cleland, V., Edwards, N., Feng, X., Loh, V., Owen, N., Rachele, J. N., Sugiyama, T., Timperio, A., & Veitch, J. (2026). Walkability and the built environment: Increasing physical activity levels and improving heart health for people living in Australia [Evidence review]. National Heart Foundation of Australia.",
+     [("PDF", "files/reports/Heart%20Foundation%20walkability%20and%20the%20built%20environment%202026.pdf")]),
+    ("Foster, S., Kleeman, A., Lowe, M., Gunn, L., De Gruyter, C., Chandrabose, M., Alderton, A., Villanueva, K., Edwards, N., Mandzufas, J., Rachele, J. N., Reid, R. A., Astell-Burt, T., Feng, X., Owen, N., & Giles-Corti, B. (2025). Designing for density: Delivering healthy, higher-density neighbourhoods in Australia [Evidence review]. National Heart Foundation of Australia.",
+     [("PDF", "files/reports/202508%2BDesigning%2Bfor%2Bdensity%2BHF%2BEvidence%2BPaper%20(1).pdf")]),
+    ("Timperio, A., Lee, A., Gunn, L., Sahlqvist, S., Edwards, N., Jafari, A., Loh, V., Chandrabose, M., Debnath, A., Rachele, J. N., & Veitch, J. (2025). The heart of road use: A people-first approach that embeds health in transport planning [Evidence review]. National Heart Foundation of Australia.",
+     [("PDF", "files/reports/Heart%20Foundation%20Heart%20of%20Rose%20use%202025.pdf")]),
     ("Reid, R. A., Mavoa, S., Foster, S., Gilmartin-Thomas, J., Rachele, J. N. (2024). Spatially consistent annual Socio-Economic Indexes for Areas (SEIFA) data for Australian statistical areas, 1996 – 2021.",
      [("PDF", WIX + "25d07e_7100a0c908a644b0947973d12f08cc10.pdf"),
       ("Data (figshare)", "https://doi.org/10.6084/m9.figshare.27936471.v1")]),
