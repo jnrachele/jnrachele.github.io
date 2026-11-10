@@ -200,8 +200,7 @@ main { padding-bottom: 5rem; }
 @media (max-width: 860px) {
   .themes, .split, .two-col, .media-grid { grid-template-columns: 1fr; }
   .about-top, .about-top:has(.portrait) { grid-template-columns: 1fr; }
-  .about-top:has(.portrait) { grid-template-columns: 17rem minmax(0, 1fr); }
-.about-top .portrait { max-width: 14rem; }
+  .about-top .portrait { max-width: 14rem; }
   .legend .asof { margin-left: 0; width: 100%; }
 }
 @media (max-width: 640px) {
